@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  font-family: 'Noto Kufi Arabic', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* smooth color transitions when toggling theme */
+html, body, #__next { transition: background-color 200ms ease, color 200ms ease }
+
+/* small helper colors matching tailwind config fallback */
+.text-accent { color: #6d28d9; }
+.bg-accent { background-color: #6d28d9; }
+.text-primary { color: #0ea5a4; }
+.bg-primary { background-color: #0ea5a4; }
+.from-berry\/30 { --tw-gradient-from: rgba(255,107,129,0.3); }
+
+/* ensure RTL friendly layout for some components */
+.projects { direction: rtl }
