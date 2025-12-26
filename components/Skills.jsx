@@ -2,7 +2,7 @@ const mainSkills = [
   'React', 'Laravel', 'Spring Boot', 'MySQL', 'MongoDB', 'SQLite', 'Git', 'GitHub', 'TailwindCSS', 'Oracle SQL'
 ]
 
-const otherTech = ['.NET', 'Next.js', 'Express.js', 'Flutter']
+const otherTech = ['.NET', 'Next.js', 'Express.js', 'Flutter', 'Python', 'Postman']
 
 const languages = ['Java', 'PHP', 'JavaScript', 'C#', 'SQL', 'TypeScript']
 
